@@ -27,6 +27,7 @@ test.describe('Activity Log page', () => {
     page = await browser.newPage();
     const loginPage = new LoginPage(page);
     await loginPage.login();
+    console.log('lol')
   });
 
   test('Activity Log - header text', async () => {
